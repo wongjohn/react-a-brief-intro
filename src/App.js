@@ -1,21 +1,30 @@
 import React, { Component } from 'react';
+import {Impress, Step} from 'react-impressjs';
+import 'react-impressjs/styles/react-impressjs.css';
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <Impress
+                progress={true}
+                fallbackMessage={<p>Sorry, your <b>device or browser</b> couldn't support well.</p>}
+                >
+                <Step id={'overview'} />
+                <Step id={'any_id'} className={'class_name'} />
+                <Step className={'without_id_is_ok'}
+                    data={{x: 100, y:-100, scale:2}}
+                    />
+                <Step duration={1500}>
+                    <img src={logo} />
+                    <h1>Any Element write in Step!</h1>
+                    <hr />
+                    <p>Made by your <b>Creativity</b>!!</p>
+                </Step>
+            </Impress>
+        );
+    }
 }
 
 export default App;
