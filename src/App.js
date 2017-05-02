@@ -17,7 +17,7 @@ class App extends Component {
                     data={{x: 100, y:-100, scale:2}}
                     />
                 <Step duration={1500}>
-                    <img src={logo} />
+                    <img src={logo} alto="logo" />
                     <h1>Any Element write in Step!</h1>
                     <hr />
                     <p>Made by your <b>Creativity</b>!!</p>
