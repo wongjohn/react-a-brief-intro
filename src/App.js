@@ -35,7 +35,7 @@ class App extends Component {
                 <Step data={{x:-600, y:-1200, scale: 1}}>
                     <OriginStory />
                 </Step>
-                <Step data={{x: 1000, y:-1500, scale: 1}}>
+                <Step id={"creationApproach"} data={{x: 1000, y:-1500, scale: 1}}>
                     <CreationApproaches />
                 </Step>
                 <Step data={{x: 1000, y:-500, scale: 1}}>
