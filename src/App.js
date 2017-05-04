@@ -26,13 +26,13 @@ class App extends Component {
                 <Step data={{x:-1600, y:-1500, scale: 1}}>
                     <Introduction />
                 </Step>
-                <Step data={{x:-2600, y:-1200, scale: 1}}>
+                <Step data={{x:-2600, y:-700, scale: 1}}>
                     <Performance />
                 </Step>
-                <Step data={{x:-1600, y:-1200, scale: 1}}>
+                <Step data={{x:-1600, y:-700, scale: 1}}>
                     <WhatMakesReactSpecial />
                 </Step>
-                <Step data={{x:-600, y:-1200, scale: 1}}>
+                <Step data={{x:-600, y:-700, scale: 1}}>
                     <OriginStory />
                 </Step>
                 <Step id={"creationApproach"} data={{x: 1000, y:-1500, scale: 1}}>

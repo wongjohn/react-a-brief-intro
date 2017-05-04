@@ -1,7 +1,5 @@
-.intro {
-
-}
 .intro .react-logo {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
 }
