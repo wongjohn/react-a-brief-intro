@@ -14,6 +14,7 @@ import ContainerIntro2 from './subjects/ContainerIntro2';
 import ContainerQ from './subjects/ContainerQ';
 import ContainerVsPresentational from './subjects/ContainerVsPresentational';
 import HigherOrderComponent from './subjects/HigherOrderComponent';
+import OtherResources from './subjects/OtherResources';
 
 class App extends Component {
     render() {
@@ -58,6 +59,9 @@ class App extends Component {
                 </Step>
                 <Step data={{x: 3000, y:-1500, scale: 1}}>
                     <HigherOrderComponent />
+                </Step>
+                <Step data={{x: 4000, y:-1500, scale: 1}}>
+                    <OtherResources />
                 </Step>
             </Impress>
         );
