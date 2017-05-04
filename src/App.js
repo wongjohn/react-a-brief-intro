@@ -3,6 +3,7 @@ import {Impress, Step} from 'react-impressjs';
 import 'react-impressjs/styles/react-impressjs.css';
 import './App.css';
 import Introduction from './subjects/Introduction';
+import Performance from './subjects/Performance';
 import WhatMakesReactSpecial from './subjects/WhatMakesReactSpecial';
 import OriginStory from './subjects/OriginStory';
 import CreationApproaches from './subjects/CreationApproaches';
@@ -19,8 +20,11 @@ class App extends Component {
                 progress={true}
                 fallbackMessage={<p>Sorry, your <b>device or browser</b> couldn't support well.</p>}
                 >
-                <Step data={{x:-1000, y:-1500, scale: 1}}>
+                <Step data={{x:-1600, y:-1500, scale: 1}}>
                     <Introduction />
+                </Step>
+                <Step data={{x:-2600, y:-1200, scale: 1}}>
+                    <Performance />
                 </Step>
                 <Step data={{x:-1600, y:-1200, scale: 1}}>
                     <WhatMakesReactSpecial />
@@ -28,19 +32,19 @@ class App extends Component {
                 <Step data={{x:-600, y:-1200, scale: 1}}>
                     <OriginStory />
                 </Step>
-                <Step data={{x: 100, y:-1500, scale: 1}}>
+                <Step data={{x: 1000, y:-1500, scale: 1}}>
                     <CreationApproaches />
                 </Step>
-                <Step data={{x: 1000, y:-1500, scale: 1}}>
+                <Step data={{x: 2000, y:-1500, scale: 1}}>
                     <ClassVsStateless />
                 </Step>
-                <Step data={{x: 2000, y:-1500, scale: 1}}>
+                <Step data={{x: 3000, y:-1500, scale: 1}}>
                     <ContainerVsPresentational />
                 </Step>
-                <Step data={{x: 3000, y:-1500, scale: 1}}>
+                <Step data={{x: 4000, y:-1500, scale: 1}}>
                     <HighOrderComponent />
                 </Step>
-                <Step data={{x: 4000, y:-1500, scale: 1}}>
+                <Step data={{x: 5000, y:-1500, scale: 1}}>
                     <IntegratingWithOtherLibraries />
                 </Step>
             </Impress>
