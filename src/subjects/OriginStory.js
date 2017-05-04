@@ -3,6 +3,6 @@ import OriginStoryImage from './images/OriginStory.png'
 
 export default function OriginStory () {
     return (
-        <img className="demo-image" src={OriginStoryImage} alto="Origin Story" />
+        <img className="demo-image" src={OriginStoryImage} alt="Origin Story" />
     );
 }

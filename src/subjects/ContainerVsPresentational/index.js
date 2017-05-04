@@ -3,6 +3,6 @@ import ContainerVsPresentationalImage from '../images/ContainerVsPresentational.
 
 export default function ContainerVsPresentational () {
     return (
-        <img className="demo-image" src={ContainerVsPresentationalImage} alto="Container Vs Presentational" />
+        <img className="demo-image" src={ContainerVsPresentationalImage} alt="Container Vs Presentational" />
     );
 }

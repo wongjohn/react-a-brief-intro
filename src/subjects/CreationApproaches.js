@@ -3,6 +3,6 @@ import CreationApproachesImage from './images/CreationApproaches.png'
 
 export default function CreationApproaches() {
     return (
-        <img className="demo-image" src={CreationApproachesImage} alto="Creation Approaches" />
+        <img className="demo-image" src={CreationApproachesImage} alt="Creation Approaches" />
     );
 }
