@@ -1,0 +1,18 @@
+{
+  "main.css": "static/css/main.e80e33a3.css",
+  "main.css.map": "static/css/main.e80e33a3.css.map",
+  "main.js": "static/js/main.ac3cb163.js",
+  "main.js.map": "static/js/main.ac3cb163.js.map",
+  "static/media/ClassVsStateless.png": "static/media/ClassVsStateless.01c4c6fc.png",
+  "static/media/Container-Intro.png": "static/media/Container-Intro.de44e5ac.png",
+  "static/media/Container-Intro1.png": "static/media/Container-Intro1.e2d7a79e.png",
+  "static/media/Container-Intro2.png": "static/media/Container-Intro2.e946ca17.png",
+  "static/media/Container-Q.png": "static/media/Container-Q.97d67d56.png",
+  "static/media/ContainerVsPresentational.png": "static/media/ContainerVsPresentational.c0835803.png",
+  "static/media/CreationApproaches.png": "static/media/CreationApproaches.ea8d496b.png",
+  "static/media/HigherOrderComponent.png": "static/media/HigherOrderComponent.b385d5a1.png",
+  "static/media/OriginStory.png": "static/media/OriginStory.9e5d103a.png",
+  "static/media/Performance.png": "static/media/Performance.8925f6d1.png",
+  "static/media/WhatMakesReactSpecial.png": "static/media/WhatMakesReactSpecial.92c6527d.png",
+  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+}
