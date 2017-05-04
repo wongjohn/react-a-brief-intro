@@ -22,3 +22,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.step{
+  color: #fff;
+  text-align: center;
+}
+
+#react-impressjs {
+  background: #2b2b2b radial-gradient(#555a5f 0%, #1c1e20 100%);
+}
