@@ -1,9 +1,8 @@
 import React from 'react';
+import CreationApproachesImage from './images/CreationApproaches.png'
 
 export default function CreationApproaches() {
     return (
-        <div>
-            <h2>React component creation approaches</h2>
-        </div>
+        <img className="demo-image" src={CreationApproachesImage} alto="Creation Approaches" />
     );
 }

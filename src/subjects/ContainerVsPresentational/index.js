@@ -1,7 +1,8 @@
 import React from 'react';
+import ContainerVsPresentationalImage from '../images/ContainerVsPresentational.png';
 
 export default function ContainerVsPresentational () {
     return (
-        <h2>Container vs Presentational Components</h2>
+        <img className="demo-image" src={ContainerVsPresentationalImage} alto="Container Vs Presentational" />
     );
 }
